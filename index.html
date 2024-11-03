@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visionary Youth Labs</title>
+
+    <!-- CSS Stylesheet Links -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/testimonials.css">
+
+    <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <!-- Small device navbar  -->
+        <div id="nav1" class="nav-container">
+           <div class="logo-hum-container">
+             <!-- Logo -->
+         <div class="logo">
+            <img src="Visionar _Youth _Labs.png" alt="Visionary Youth Labs Logo has been disappeared">
+         </div>
+            <!-- Humberger -->
+          <div onclick="showMenu()" class="hum-close-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        </div>
+           </div>
+                        <!-- Navbar for small devices -->
+           <ul id="nav1-links">
+                <li><a href="">Home</a></li>
+                <li class="dropdown" ><a href="#about">About</a>
+                    <ul id="dropdown-menu">
+                       <li><a href="#recruitment-lead-generation">Team Members</a></li>
+                       <li><a href="#b2b-lead-generation">Our Vision</a></li>
+                       <li><a href="#advertisement">Education Program</a></li>
+                    </ul>
+                 </li>
+                 <li class="dropdown" ><a href="#services">Services</a>
+                  <ul id="dropdown-menu">
+                     <li><a href="#recruitment-lead-generation">Recruitment Lead Generation</a></li>
+                     <li><a href="#b2b-lead-generation">B2B Lead Generation</a></li>
+                     <li><a href="#advertisement">Advertisement</a></li>
+                  </ul>
+               </li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+           </ul>
+        </div>
+
+
+
+        <!-- Navbar for Large Devices -->
+        <div id="nav2" class="nav-container">
+            <!-- Logo -->
+         <div class="logo">
+            <img src="Visionar _Youth _Labs.png" alt="Visionary Youth Labs Logo has been disappeared">
+         </div>
+            <!-- Humberger -->
+          <div onclick="hideMenu()" class="humberger">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+          </div>
+            <!-- navbar, block while it's mobile size -->
+           <ul>
+                <li><a href="">Home</a></li>
+                <li class="dropdown" ><a href="#about">About</a>
+                    <ul id="dropdown-menu">
+                       <li><a href="team-members.html">Team Members</a></li>
+                       <li><a href="#b2b-lead-generation">Our Vision</a></li>
+                       <li><a href="#advertisement">Education Program</a></li>
+                    </ul>
+                 </li>
+                <li class="dropdown" ><a href="#services">Services</a>
+                  <ul id="dropdown-menu">
+                     <li><a href="#recruitment-lead-generation">Recruitment Lead Generation</a></li>
+                     <li><a href="#b2b-lead-generation">B2B Lead Generation</a></li>
+                     <li><a href="#advertisement">Advertisement</a></li>
+                  </ul>
+               </li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+           </ul>
+        </div>
+    </nav>
+
+         <!-- Hero Section -->
+  <section class="hero">
+   <div class="hero-box">
+     <h1>We Help With Prospect Client Leads</h1>
+     <p>
+        If you are among the Staffing and Recruiting agency, it's the right place where we help with your prospect client leads.
+        We have been working in the Marketing industry for the last several years coming with the understanding of Marketing Strategies and Implementations.
+        We are also on a mission  to help the persecuted and marginalized Rohingya Community of Arakan, Myanmar and create a sustainable solution for youths with Technology.
+    </p>
+       <button onclick="window.location.href='#services'">Get Started</button>
+   </div>
+ </section>
+
+      <!-- Who We Are -->
+      <div id="about-us" class="about-us">
+         <h2>Who We Are</h2>
+                <p>
+                    Visionary Youth Labs (VYL) is a client-focused IT services and consulting agency dedicated to helping small and medium-sized businesses espcially for the Staffing and Recruiting agencies.
+                    We specialize in <span class="service-highlight">Recruitment Lead Generation, B2B Lead Generation and Social Media Advertisement,</span> with tailored marketing solutions designed to grow your business.
+                    We help with effective strategies that streamline operations, drive growth and meet the unique needs of every client.</p>
+            
+            <h3>Our Vision</h3>
+                <p>
+                    We believe in a future where technology and opportunities are accessible to everyone, regardless of background.
+                    Our mission extends beyond client success to also focus on empowering Rohingya youth with the skills they need for the digital world.
+                    Through training and mentorship, we provide pathways into technology, equipping young people with valuable expertise and experience that can lead to brighter futures. Our overall vision is to create a reliable source where we can grow together and live together peacefully.
+                    <a href="">Read more about our vision</a>
+                </p>         
+                
+                <a href="#" class="about-button">Meet The Team</a>
+     </div>
+
+         <!-- Cards -->
+         <h2 id="services" class="section-title">Our <span>Services</span></h2>
+         <div class="card-container">
+            <div id="recruitment-lead-generation" class="card">
+                <img src="images/about_01.jpg" alt="Card Image" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Recruitment Lead Generation</h3>
+                    <p class="card-description">
+                        Recruitment Lead Generation is the process of building a contact list of potential client leads for the Staffing and Recruiting agencies.
+                    </p>
+                    <a href="contact.html" class="card-button">Learn More</a>
+                </div>
+            </div>
+        
+            <div id="b2b-lead-generation" class="card">
+                <img src="images/m_bio_photo.jpg" alt="Card Image" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">B2B Lead Generation</h3>
+                    <p class="card-description">
+                        Most of the companies require B2B Leads and B2B Leads Generation means also building a prospect client leads for your business.
+                    </p>
+                    <a href="contact.html" class="card-button">Learn More</a>
+                </div>
+            </div>
+        
+            <div id="advertisement" class="card">
+                <img src="images/version_02.jpg" alt="Card Image" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Advertisement</h3>
+                    <p class="card-description">
+                        Advertisement on the Internet is always the head of all marketing strategies as it has the ability to spread to millions of prospects.
+                        It's one of the best idea to sell products to your prospect customers through the Internet and save your overall marketing costs and time.
+                    </p>
+                    <a href="contact.html" class="card-button">Learn More</a>
+                </div>
+            </div>
+            
+            <div class="card">
+                <img src="images/version_06.jpg" alt="Card Image" class="card-image">
+                <div class="card-content">
+                    <h3 class="card-title">Marketing Consultation <span class="free-badge">free</span></h3>
+                    <p class="card-description">
+                        If you have a business and want to grow your company and looking for an idea on how to do that, please feel free to contact me and I will help you with maximum solutions from my experiences of self learning and industrial work experiences.
+                    </p>
+                    <a href="contact.html" class="card-button">Contact</a>
+                </div>
+            </div>
+        </div>
+        
+<!-- Testimonials Section -->
+<section id="testimonials" class="testimonials">
+    <h2>Our Clients Include</h2>
+    <div class="testimonial-slider">
+        <div class="testimonial-track">
+            <div class="testimonial-logo"><img src="images/nces_clientpng.png" alt="NCES"></div>
+            <div class="testimonial-logo"><img src="images/chandler_personnel_client.png" alt="Chandler Personnel"></div>
+            <div class="testimonial-logo"><img src="images/unique_recruitment-client.png" alt="Unique Recruitment"></div>
+            <div class="testimonial-logo"><img src="images/recruitspot_client.png" alt="RecruitSpot"></div>
+        </div>
+    </div>
+</section>
+
+
+        <!-- Footer -->
+<footer class="footer">
+    <div>
+        <p>&copy; 2024 Visionary Youth Labs. All Rights Reserved.</p>
+        <p>
+            <a href="#about">About Us</a> | 
+            <a href="#services">Services</a> | 
+            <a href="contact.html">Contact</a> |
+            <a href="#career">Career</a> |
+            <a href="#blog">Blog</a>
+        </p>
+    </div>
+    <div class="social-icons">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+</footer>
+
+    <script src="index.js"></script>
+   </body>
+</html>

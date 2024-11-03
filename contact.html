@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+
+    <!-- CSS Links -->
+     <link rel="stylesheet" href="index.css">
+     <link rel="stylesheet" href="styles/footer.css">
+     <link rel="stylesheet" href="styles/contact.css">
+
+         <!-- Font Awesome CDN Link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"/>
+</head>
+<body>
+    <nav>
+        <!-- Small device navbar  -->
+        <div id="nav1" class="nav-container">
+           <div class="logo-hum-container">
+             <!-- Logo -->
+         <div onclick="window.location.href='index.html'" class="logo">
+            <img src="Visionar _Youth _Labs.png" alt="Visionary Youth Labs Logo has been disappeared">
+         </div>
+            <!-- Humberger -->
+          <div onclick="showMenu()" class="hum-close-btn">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+        </div>
+           </div>
+            <!-- navbar, block while it's mobile size -->
+           <ul id="nav1-links">
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown" ><a href="index.html#about-us">About</a>
+                    <ul id="dropdown-menu">
+                       <li><a href="#recruitment-lead-generation">Team</a></li>
+                       <li><a href="#b2b-lead-generation">Vision</a></li>
+                       <li><a href="#advertisement">Education Program</a></li>
+                    </ul>
+                 </li>
+                <li class="dropdown" ><a href="index.html#services">Services</a>
+                  <ul id="dropdown-menu">
+                     <li><a href="index.html#recruitment-lead-generation">Recruitment Lead Generation</a></li>
+                     <li><a href="index.html#b2b-lead-generation">B2B Lead Generation</a></li>
+                     <li><a href="index.html#advertisement">Advertisement</a></li>
+                  </ul>
+               </li>
+                <li><a href="contact.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+           </ul>
+        </div>
+
+
+
+        <!-- Large Device Navbar -->
+        <div id="nav2" class="nav-container">
+            <!-- Logo -->
+         <div onclick="window.location.href='index.html'" class="logo">
+            <img src="Visionar _Youth _Labs.png" alt="Visionary Youth Labs Logo has been disappeared">
+         </div>
+            <!-- Humberger -->
+          <div onclick="hideMenu()" class="humberger">
+            <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+          </div>
+            <!-- navbar, block while it's mobile size -->
+           <ul>
+                <li><a href="index.html">Home</a></li>
+                <li class="dropdown" ><a href="index.html#about-us">About</a>
+                    <ul id="dropdown-menu">
+                       <li><a href="#recruitment-lead-generation">Team Members</a></li>
+                       <li><a href="#b2b-lead-generation">Our Vision</a></li>
+                       <li><a href="#advertisement">Education Program</a></li>
+                    </ul>
+                 </li>
+                <li class="dropdown" ><a href="index.html#services">Services</a>
+                  <ul id="dropdown-menu">
+                     <li><a href="index.html#recruitment-lead-generation">Recruitment Lead Generation</a></li>
+                     <li><a href="index.html#b2b-lead-generation">B2B Lead Generation</a></li>
+                     <li><a href="index.html#advertisement">Advertisement</a></li>
+                  </ul>
+               </li>
+                <li><a href="">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+           </ul>
+        </div>
+    </nav>
+
+    <div class="contact-container">
+        <div class="form-container">
+            <div class="form-container-desc">
+                <h1>Contact Form</h1>
+                <p>
+                    If you are wondering how we can help your company with our Marketing Solutions espcially B2B Leads, please feel free to contact us.
+                    Sharing the maximum details will help us better to communicate so try to explain your needs.
+                </p>
+            </div>
+            <form action="">
+                <div class="grids-container">
+
+                    <div class="grid grid1">
+                        <input type="text" class="f-name" name="fName" placeholder="First Name" required>
+                        <input type="text" class="l-name" name="lName" placeholder="Last Name" required>
+                    </div>
+                    <div class="grid grid2">
+                        <input type="tel" class="phone" name="phone" placeholder="WhatsApp Number (optional)">
+                        <input type="email" class="email" name="email" placeholder="Email Address" required>
+                    </div>
+                    <div id="from-country" class="grid grid2">
+                        <input type="text" class="from-country" name="from" placeholder="Country" required>
+                    </div>
+                    <div id="form-subj" class="grid grid2">
+                        <input type="text" class="subj" name="subj" placeholder="Subject" required>
+                    </div>
+                    <div id="select-services" class="grid grid2">
+                        <select name="service" id="">
+                            <option selected disabled>Choose Your Interest</option>
+                            <option value="Recruitment Leads">Recruitment Lead Generation</option>
+                            <option value="Recruitment Leads">B2B Lead Generation</option>
+                            <option value="Recruitment Leads">Advertisement</option>
+                            <option value="Recruitment Leads">Marketing Consultation (free)</option>
+                        </select>
+                    </div>
+                    <div id="msg-us" class="grid grid2">
+                        <textarea name="msg" id="msg" cols="20" rows="15" placeholder="Explain your needs here.."></textarea>
+                    </div>
+                    <button class="form-btn" type="submit">Submit</button>
+               
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+    
+        <!-- Footer -->
+<footer class="footer">
+    <div>
+        <p>&copy; 2024 Visionary Youth Labs. All Rights Reserved.</p>
+        <p>
+            <a href="#about">About Us</a> | 
+            <a href="index.html#services">Services</a> | 
+            <a href="contact.html">Contact</a> |
+            <a href="#career">Career</a> |
+            <a href="#blog">Blog</a>
+        </p>
+    </div>
+    <div class="social-icons">
+        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+    </div>
+</footer>
+    <script src="index.js"></script>
+</body>
+</html>
