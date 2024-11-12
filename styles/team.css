@@ -114,12 +114,16 @@
 
 .team-member h3 {
     font-size: 1.2em;
-    color: #333;
+    color: black;
+}
+.team-member h4{
+    color: #555;
+    font-size: 1.05em;
 }
 
 .position, .team-bio {
     font-size: 0.9em;
-    color: #666;
+    color: #635c5c;
 }
 
 /* Recent Blogs Section */
