@@ -1,9 +1,10 @@
 /* Testimonials Section */
 .testimonials {
     padding: 40px 20px;
-    background-color: #f7f7f7;
+    /* background-color: #f7f7f7; */
     text-align: center;
     overflow: hidden;
+    background-color: aliceblue;
 }
 
 .testimonials h2 {
@@ -17,6 +18,8 @@
     overflow: hidden;
     white-space: nowrap;
     position: relative;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .testimonial-track {

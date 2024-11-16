@@ -70,3 +70,10 @@
         padding: 10px;
     }
 }
+
+#submit-success-alert{
+    display: none;
+    margin-top: 12px;
+    font-style: italic;
+    color: green;
+}

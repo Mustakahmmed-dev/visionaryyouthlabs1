@@ -98,11 +98,11 @@
                     Sharing the maximum details will help us better to communicate so try to explain your needs.
                 </p>
             </div>
-            <form action="">
+            <form id="form-submit-btn" action="https://formspree.io/f/xwpkbged" method="post">
                 <div class="grids-container">
 
                     <div class="grid grid1">
-                        <input type="text" class="f-name" name="fName" placeholder="First Name" required>
+                        <input type="text" class="f-name" id="user-name" name="fName" placeholder="First Name" required>
                         <input type="text" class="l-name" name="lName" placeholder="Last Name" required>
                     </div>
                     <div class="grid grid2">
@@ -119,18 +119,18 @@
                         <select name="service" id="">
                             <option selected disabled>Choose Your Interest</option>
                             <option value="Recruitment Leads">Recruitment Lead Generation</option>
-                            <option value="Recruitment Leads">B2B Lead Generation</option>
-                            <option value="Recruitment Leads">Advertisement</option>
-                            <option value="Recruitment Leads">Marketing Consultation (free)</option>
+                            <option value="B2B Leads">B2B Lead Generation</option>
+                            <option value="Advertisement">Advertisement</option>
+                            <option value="Marketing Consultation">Marketing Consultation (free)</option>
                         </select>
                     </div>
                     <div id="msg-us" class="grid grid2">
                         <textarea name="msg" id="msg" cols="20" rows="15" placeholder="Explain your needs here.."></textarea>
                     </div>
                     <button class="form-btn" type="submit">Submit</button>
-               
                 </div>
             </form>
+            <p id="submit-success-alert"><span id="set-user-name"></span>Thank you! You have successfully submitted the form. We will get in touch with you as soon as possible.</p>
         </div>
     </div>
 
@@ -154,12 +154,13 @@
         <a href="https://www.instagram.com/visionaryyouthlabs" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
     </div>
     <div>
-        <p>For any urgent queries, &nbsp;&nbsp; <i>E: mustakahmmmed793@gmail.com</i></p>
+        <p>Get In Touch, &nbsp;&nbsp; <i>mustakahmmmed793@gmail.com</i></p>
         <p><i>WhatsApp: +8801812050131</i></p>
     </div>
 </footer>
 
         <!-- Scripts -->
     <script src="index.js"></script>
+    <script src="scripts/contact.js"></script>
 </body>
 </html>
